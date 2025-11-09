@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+
+# Virtual env
+.venv/
+.env/
+
+# macOS
+.DS_Store
+
+# VS Code settings backups
+*.code-workspace
+
+# Local tools
+.qodo/
