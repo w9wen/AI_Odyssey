@@ -12,3 +12,6 @@ print("Multiplied array:", multiplied_array)
 
 add_array = array + 100
 print("Array after addition:", add_array)
+
+array_a = np.array([1, 2, 3])
+array_b = np.array([10, 20, 30])
