@@ -1,4 +1,3 @@
 {
-    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
-    "terminal.integrated.defaultProfile.osx": "zsh"
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python"
 }
