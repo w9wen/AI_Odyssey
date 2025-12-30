@@ -69,7 +69,6 @@ Spec Kit 的核心流程分為「專案初始化」與「功能開發循環」�
 ### 流程圖
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4a90d9', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#2d5a87', 'lineColor': '#5c6bc0', 'secondaryColor': '#81c784', 'tertiaryColor': '#fff59d', 'background': '#1e1e1e', 'mainBkg': '#2d2d2d', 'nodeBorder': '#888888', 'clusterBkg': '#3d3d3d', 'clusterBorder': '#666666', 'titleColor': '#ffffff', 'edgeLabelBackground': '#2d2d2d'}}}%%
 graph TD
     subgraph INIT["📦 專案初始化 One-time Setup"]
         Install["🖥️ 安裝 Specify CLI"]
@@ -209,7 +208,6 @@ GitHub Spec Kit 結合兩種運作模式：
 2. **AI Agent 指令** (對話式指令) - 用於功能開發循環
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4a90d9', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#2d5a87', 'lineColor': '#5c6bc0', 'secondaryColor': '#81c784', 'tertiaryColor': '#fff59d', 'background': '#1e1e1e', 'mainBkg': '#2d2d2d', 'nodeBorder': '#888888', 'clusterBkg': '#3d3d3d', 'clusterBorder': '#666666', 'titleColor': '#ffffff', 'edgeLabelBackground': '#2d2d2d'}}}%%
 graph TB
     subgraph SOURCE["🔧 工具包來源"]
         CLI["🖥️ Specify CLI<br/>Python/uv"]
@@ -247,7 +245,6 @@ graph TB
 ### 目錄總覽
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4a90d9', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#2d5a87', 'lineColor': '#5c6bc0', 'secondaryColor': '#81c784', 'tertiaryColor': '#fff59d', 'background': '#1e1e1e', 'mainBkg': '#2d2d2d', 'nodeBorder': '#888888', 'clusterBkg': '#3d3d3d', 'clusterBorder': '#666666', 'titleColor': '#ffffff', 'edgeLabelBackground': '#2d2d2d'}}}%%
 graph LR
     subgraph ROOT_DIR["🏠 專案根目錄"]
         ROOT["📁 Project Root"]
@@ -395,7 +392,6 @@ agent: speckit.specify
 ### `.github/agents/` - AI Agent 定義 (核心邏輯)
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4a90d9', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#2d5a87', 'lineColor': '#5c6bc0', 'secondaryColor': '#81c784', 'tertiaryColor': '#fff59d', 'background': '#1e1e1e', 'mainBkg': '#2d2d2d', 'nodeBorder': '#888888', 'clusterBkg': '#3d3d3d', 'clusterBorder': '#666666', 'titleColor': '#ffffff', 'edgeLabelBackground': '#2d2d2d'}}}%%
 flowchart TD
     subgraph AGENTS["🤖 Agent 檔案群"]
         CONST["📜 speckit.constitution<br/>憲章建立"]
@@ -447,7 +443,6 @@ flowchart TD
 ### `.specify/scripts/powershell/` - 腳本工具
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4a90d9', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#2d5a87', 'lineColor': '#5c6bc0', 'secondaryColor': '#81c784', 'tertiaryColor': '#fff59d', 'background': '#1e1e1e', 'mainBkg': '#2d2d2d', 'nodeBorder': '#888888', 'clusterBkg': '#3d3d3d', 'clusterBorder': '#666666', 'titleColor': '#ffffff', 'edgeLabelBackground': '#2d2d2d'}}}%%
 flowchart LR
     subgraph PS["🖥️ PowerShell 腳本"]
         COMMON["🔧 common.ps1<br/>共用函式庫"]
@@ -480,7 +475,6 @@ flowchart LR
 ### `.specify/templates/` - 文件範本
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4a90d9', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#2d5a87', 'lineColor': '#5c6bc0', 'secondaryColor': '#81c784', 'tertiaryColor': '#fff59d', 'background': '#1e1e1e', 'mainBkg': '#2d2d2d', 'nodeBorder': '#888888', 'clusterBkg': '#3d3d3d', 'clusterBorder': '#666666', 'titleColor': '#ffffff', 'edgeLabelBackground': '#2d2d2d'}}}%%
 graph TD
     subgraph TMPL["📄 範本檔案"]
         SPEC_T["📋 spec-template.md<br/>規格書範本"]
@@ -550,7 +544,6 @@ graph TD
 ### `specs/` - 規格輸出目錄
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4a90d9', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#2d5a87', 'lineColor': '#5c6bc0', 'secondaryColor': '#81c784', 'tertiaryColor': '#fff59d', 'background': '#1e1e1e', 'mainBkg': '#2d2d2d', 'nodeBorder': '#888888', 'clusterBkg': '#3d3d3d', 'clusterBorder': '#666666', 'titleColor': '#ffffff', 'edgeLabelBackground': '#2d2d2d'}}}%%
 graph TD
     subgraph SPECS_STRUCT["📂 specs/ 結構"]
         SPECS["📁 specs/"]
@@ -604,7 +597,6 @@ graph TD
 ### 階段一：專案初始化 (一次性)
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4a90d9', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#2d5a87', 'lineColor': '#5c6bc0', 'secondaryColor': '#81c784', 'tertiaryColor': '#fff59d', 'background': '#1e1e1e', 'mainBkg': '#2d2d2d', 'nodeBorder': '#888888', 'clusterBkg': '#3d3d3d', 'clusterBorder': '#666666', 'titleColor': '#ffffff', 'edgeLabelBackground': '#2d2d2d'}}}%%
 flowchart LR
     subgraph PHASE1["📦 專案初始化"]
         A1["👤 開發者"] -->|specify init .| A2["🖥️ Specify CLI"]
@@ -625,7 +617,6 @@ flowchart LR
 ### 階段二：功能開發循環 (重複執行)
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4a90d9', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#2d5a87', 'lineColor': '#5c6bc0', 'secondaryColor': '#81c784', 'tertiaryColor': '#fff59d', 'background': '#1e1e1e', 'mainBkg': '#2d2d2d', 'nodeBorder': '#888888', 'clusterBkg': '#3d3d3d', 'clusterBorder': '#666666', 'titleColor': '#ffffff', 'edgeLabelBackground': '#2d2d2d'}}}%%
 flowchart TD
     subgraph STEP1["📋 Step 1: 建立規格"]
         S1A["/speckit.specify"] -->|執行腳本| S1B["create-new-feature.ps1"]
@@ -705,7 +696,6 @@ flowchart TD
 ## 指令與腳本對應表 (Command-Script Mapping)
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4a90d9', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#2d5a87', 'lineColor': '#5c6bc0', 'secondaryColor': '#81c784', 'tertiaryColor': '#fff59d', 'background': '#1e1e1e', 'mainBkg': '#2d2d2d', 'nodeBorder': '#888888', 'clusterBkg': '#3d3d3d', 'clusterBorder': '#666666', 'titleColor': '#ffffff', 'edgeLabelBackground': '#2d2d2d'}}}%%
 flowchart TB
     subgraph CMD["🤖 AI Agent 指令"]
         CMD_CONST["/speckit.constitution"]
@@ -786,7 +776,6 @@ flowchart TB
 ## 檔案相依性圖 (File Dependency Graph)
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#4a90d9', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#2d5a87', 'lineColor': '#5c6bc0', 'secondaryColor': '#81c784', 'tertiaryColor': '#fff59d', 'background': '#1e1e1e', 'mainBkg': '#2d2d2d', 'nodeBorder': '#888888', 'clusterBkg': '#3d3d3d', 'clusterBorder': '#666666', 'titleColor': '#ffffff', 'edgeLabelBackground': '#2d2d2d'}}}%%
 graph TD
     subgraph CONFIG_LAYER["⚙️ 設定層"]
         CONFIG["📄 config.json"]
