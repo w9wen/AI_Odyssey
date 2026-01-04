@@ -13,3 +13,4 @@ print(f"運算結果 y = {y}")
 
 y.backward()  # 自動計算 y 對 x 的導數
 print(f"張量 x 的導數 = {x.grad}")
+
